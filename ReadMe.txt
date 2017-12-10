@@ -4,7 +4,8 @@ YIN_algorithm.go - Reads a mono 16 bits wav  file and detects the main pitch of 
                    audio, and the probability of it being correct.
                    With this information you can detect the note that is played.
 The frequency detection algorithm is based on YIN algorithm more specifically
-a port of the C implementation on https://github.com/ashokfernandez/Yin-Pitch-Tracking/blob/master/Yin.c
+a port to the Go ( GoLang ) programming language of the C implementation 
+on https://github.com/ashokfernandez/Yin-Pitch-Tracking/blob/master/Yin.c
 
 Author:  Joao Nuno Carvalho
 Email:   joaonunocarv@gmail.com
